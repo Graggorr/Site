@@ -6,10 +6,12 @@
     --footer-color-text: rgba(255, 255, 255, 0.6);
     --color-text: #212121;
     --color-text-header: #757575;
+    --color-button: red;
 }
 body
 {
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Tienne', serif;
+    background-color: pink;
 }
 /*Header*/
 .header {
@@ -17,7 +19,7 @@ body
 }
 .logo {
     color: var(--hover-collor-text);
-    font-family: Raleway;
+    font-family: 'Tienne';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.14;
@@ -26,7 +28,7 @@ body
 }
 .logo-half {
     color: var(--color-text);
-    font-family: Raleway;
+    font-family: 'Tienne';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.14;
@@ -52,7 +54,7 @@ body
     list-style-type: none;
 }
 .contacts-link-item {
-    color: var(--color-text-header);
+    color: var(--color-button);
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -62,17 +64,18 @@ body
     text-decoration: none;
 }
 .contacts-link-item:hover {
-    color: #2196F3;
+    color: green;
  }
  
 /* Main information*/
+
 .main-section 
 {
-     
+    background-color: pink;
 }
 .title-main
 {
-    color: var(--title-color);
+    color: black;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
