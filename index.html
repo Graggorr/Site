@@ -4,82 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная</title>
+    <title>Main</title>
     <link href="https://fonts.googleapis.com/css2?family=Tienne:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
-    <a href="">Dympa</a>
-    <ul>
-        <li>
-            <a href="./catalog.html">Catalog</a>
-        </li>
-        <li>
-            <a href="">Main</a>
-        </li>
-    </ul>
-    <ul>
-        <li>
-            <a href="mailto:graggorr@gmail.com">graggorr@gmail.com</a>
-        </li>
-        <li>
-            <a href="tel:+380963993777">+380963993777</a>
-        </li>
-    </ul>
+    <div class="container header">
+        <a class="logo" href="">Dympa Shop</a>
+        <h3 class="logo-text">Popular underwear in our online-store</h3>
+        <ul class="header-items">
+            <li class="li-color">
+                <a class="li-color" href="./catalog.html">Catalog</a>
+            </li>
+            <li class="li-color">
+                <a class="li-color" href="">Main</a>
+            </li>
+        </ul>
+        <ul class="header-items">
+            <li class="li-color">
+                <a class="li-color" href="mailto:graggorr@gmail.com">graggorr@gmail.com</a>
+            </li>
+            <li>
+                <a class="li-color" href="tel:+380963993777">+380963993777</a>
+            </li>
+        </ul>
+    </div>
 </header>
 <main>
     <section>
-        <h2>Popular underwear in our online-store</h2>
-        <ul>
-            <h2>Stocks!</h2>
-            <li>
-                <img src="./images/Акция1.jpg" width="300">
+        <div class="container">
+        <h2 class="main-title">Stocks!</h2>
+        <ul class="catalog-list">
+            <li class="main-list">
+                <img src="./images/Акция1.jpg" width="300" height="400">
+                <p class="old-price">
+                    Price: $200
+                </p>
                 <p>
                     Price: $50
                 </p>
             </li>
-            <li>
-                <img src="./images/Акция2.jpg" width="300">
+            <li class="main-list">
+                <img src="./images/Акция2.jpg" width="300" height="400">
+                <p class="old-price">
+                    Price: $200
+                </p>
                 <p>
-                    Price:
+                    Price: $40
                 </p>
             </li>
-            <li>
-                <img src="./images/Акция3.jpg" width="300">
+            <li class="main-list">
+                <img src="./images/Акция3.jpg" width="300" height="400">
+                <p class="old-price">
+                    Price: $200
+                </p>
                 <p>
+                    Price: $50
+                </p>
+            </li>
+            </ul>
+            <h2 class="stuff">New stuff</h2>
+            <ul class="catalog-list">
 
+            <li class="main-list">
+                <img src="images/Новинка1.jpg" width="300" height="400">
+                <p>
+                    Price: $200
                 </p>
             </li>
-            <h2>New stuff</h2>
-            <li>
-                
+            <li class="main-list">
+                <img src="images/Новинка2.jpg" width="300" height="400">
+                <p>
+                    Price: $150
+                </p>
             </li>
-            <li>
-                
-            </li>
-            <li>
-                
+            <li class="main-list">
+                <img src="images/Новинка3.jpg" width="300" height="400">
+                <p>
+                    Price: $200
+                </p>
             </li>
         </ul>
+        </div>
     </section>
     <footer>
-        <a href="">Dympa</a>
+        <div class="container footer-container" >
+        <a class="under-logo" href="">Dympa Shop</a>
         <address>
             <ul>
-                <li>
+                <li class="footer-item">
                     <p>
                         Ukraine, Vinnitsa; Keletska street, 124
                     </p>
                 </li>
-                <li>
-                    <a href="mailto:graggorr@gmail.com">graggorr@gmail.com</a>
+                <li class="footer-item">
+                    <a class="footer-item" href="mailto:graggorr@gmail.com">graggorr@gmail.com</a>
                 </li>
-                <li>
-                    <a href="tel:+380963993777">+380963993777</a>
+                <li class="footer-item">
+                    <a class="footer-item" href="tel:+380963993777">+380963993777</a>
                 </li>
             </ul>
         </address>
+        </div>
     </footer>
 </main>
 </body>
