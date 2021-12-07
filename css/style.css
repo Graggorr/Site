@@ -18,7 +18,7 @@ body
     color: #FFDAB9;
     font-size: 70px;
     text-decoration: none;
-    margin-left: 470px;
+    margin-left: 420px;
     text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #f2f3f4, 0 0 80px #f2f3f4, 0 0 90px #f2f3f4, 0 0 100px #f2f3f4, 0 0 150px #f2f3f4;
 }
 .logo-text
@@ -51,26 +51,12 @@ body
 }
 .header-items
 {
-    list-style: none;   
+    list-style: none;
 }
 .li-color
 {
     color:skyblue;
     margin-bottom: 20px;
-}
-.button-order
-{
-    color: snow;
-    background-color: steelblue;
-    font-size:25px;
-    font-family: inherit;
-    cursor:pointer;
-    border-radius: 5px;
-    margin-left: 1100px;
-}
-.button-order:hover
-{
-    background-color: red;
 }
 .stuff
 {
@@ -81,6 +67,11 @@ body
 {
     margin-right: 30px;
     padding-left: 40px;
+}
+.main-list-catalog
+{
+    margin-right: 50px;
+    padding-left: 70px;
 }
 .footer-container
 {
