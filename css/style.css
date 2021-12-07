@@ -58,6 +58,10 @@ body
     color:#FFB6C1;
     margin-bottom: 20px;
 }
+.li-color:hover
+{
+    color: #FFDAB9;
+}
 .stuff
 {
     font-size: 30px;
