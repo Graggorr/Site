@@ -23,7 +23,7 @@ body
 }
 .logo-text
 {
-    color: steelblue;
+    color: #FFB6C1;
     text-align: center;
     margin-top: 50px;
 }
@@ -36,7 +36,7 @@ body
 .header
 {
     background-color: rgb(39, 38, 38);
-    border-bottom: 2px solid rgb(5, 142, 206);
+    border-bottom: 2px solid #FFB6C1;
 }
 .main-title
 {
@@ -55,7 +55,7 @@ body
 }
 .li-color
 {
-    color:skyblue;
+    color:#FFB6C1;
     margin-bottom: 20px;
 }
 .stuff
@@ -80,6 +80,8 @@ body
 .footer-item
 {
     color: #FFDAB9;
+    list-style: none;
+    text-decoration: none;
 }
 .footer-item:hover
 {
